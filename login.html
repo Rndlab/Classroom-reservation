@@ -1,0 +1,56 @@
+<html>
+<head>
+
+<link href="bootstrap\css\bootstrap-combined.min.css" rel="stylesheet" media="screen">
+
+<script type="text/javascript" src="js\jquery-ui.js"></script>
+<script type="text/javascript" src="js\jquery-2.0.0.min.js"></script>
+
+<link href="bootstrap\css\bootstrap.css" rel="stylesheet" media="screen">
+
+<script type="text/javascript" src="bootstrap\js\bootstrap.min.js"></script>
+
+<style type="text/css">
+	*{font-family:'微软雅黑';}
+	.navbar{background-color:#5ed270;color:#ffffff;}
+	.container-fluid{padding:0 auto 0 auto;width:50%;margin-top:200px;}
+	.xt{color:#e2fed1;font-size:20px;}
+</style>
+</head>
+<body>
+    <div class="navbar navbar-default">
+		<h1>
+			&nbsp;&nbsp;USTB教室预约系统<span class="xt">&nbsp;&nbsp;登录</span>
+		</h1>
+		
+	</div>
+<div class="container-fluid">
+
+	<div class="row-fluid">
+		<div class="span12">
+
+			<form class="form-horizontal" action="check.php" method="post">
+				<div class="control-group">
+					 <label class="control-label " for="inputEmail">学号/工号</label>
+					<div class="controls">
+						<input id="inputEmail" type="text" name="Id"/>
+					</div>
+				</div>
+				<div class="control-group">
+					 <label class="control-label" for="inputPassword">密码</label>
+					<div class="controls">
+						<input id="inputPassword" type="password" name="password"/>
+					</div>
+				</div>
+				<div class="control-group">
+					<div class="controls">
+						 <button type="submit" class="btn btn-success">登陆</button> 
+						 &nbsp;&nbsp;<a href="reg.html">还没注册账号？</a>
+					</div>
+				</div>
+			</form>
+			
+		</div>
+	</div>
+</div>
+</html>
